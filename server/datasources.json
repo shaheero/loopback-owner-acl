@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "loopback-owner-acl": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "db",
+    "password": "pass",
+    "name": "loopback-owner-acl",
+    "connector": "mysql",
+    "user": "user"
+  }
+}
